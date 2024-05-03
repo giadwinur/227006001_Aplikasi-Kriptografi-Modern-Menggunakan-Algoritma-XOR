@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>227006001_Gia Dwi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="appbar">
+      <h3>TUGAS KEAMANAN INFORMASI</h3>
+    </div>
+    <div class="container">
+      <div class="sidebar">
+        <div class="encrypt-box">
+          <button onclick="encrypt()">Encrypt</button>
+        </div>
+        <div class="decrypt-box">
+          <button onclick="decrypt()">Decrypt</button>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="heading-container" style="text-align: center">
+          <h2>Algoritma XOR</h2>
+          <h2>Encryption-Decryption</h2>
+          <h5>Gia Dwi Nur Anugrah (227006001)</h5>
+        </div>
+        <div class="input-container">
+          <label for="input">Input Text:</label>
+          <textarea id="input" rows="4" cols="50"></textarea>
+        </div>
+        <div class="key-container">
+          <label for="key">Key:</label>
+          <input type="text" id="key" />
+        </div>
+        <div class="output-container">
+          <label for="output">Output Text:</label>
+          <textarea id="output" rows="4" cols="50"></textarea>
+          <div id="explanation"></div>
+          <!-- Penambahan kontainer untuk keterangan -->
+        </div>
+      </div>
+    </div>
+    <script src="xor.js"></script>
+  </body>
+</html>
